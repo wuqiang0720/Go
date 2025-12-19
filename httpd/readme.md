@@ -1,3 +1,6 @@
+```
+zypper install go
+go build -o httpd http-share.go
 6f0ddf5388a0:~ # ./httpd --help
 Usage of ./httpd:
   -d string
@@ -10,3 +13,4 @@ Usage of ./httpd:
         Path to log file (optional)
   -p int
         Port to listen on (default 80)
+```
